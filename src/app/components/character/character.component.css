@@ -1,0 +1,24 @@
+.card{
+    text-align: center;
+  border: 1px solid #000;
+  border-radius: 20px;
+  margin: 10px;
+  padding: 10px;
+  background-color: rgb(178, 178, 248);
+  transition: all 500ms;
+}
+
+.card:hover {
+    background-color: rgb(152, 152, 253);
+    transform: scale(1.1);
+}
+
+.image {
+    width: 200px;
+    border-radius: 50%;
+    border: 3px solid rgb(177, 177, 177);
+}
+
+.info-container{
+    font-size: 2rem;
+}
